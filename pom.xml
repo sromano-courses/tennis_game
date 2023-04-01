@@ -14,6 +14,13 @@
           <release>8</release>
         </configuration>
       </plugin>
+      <!-- to execute pitest: mvn test-compile org.pitest:pitest-maven:mutationCoverage
+	    <plugin>
+		  <groupId>org.pitest</groupId>
+         <artifactId>pitest-maven</artifactId>
+         <version>1.11.7</version>
+      </plugin>
+	    -->
     </plugins>
   </build>
   <dependencies>
